@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Healthcare App</string>
+    <string name="No">No</string>
+    <string name="have_you_ever_came_in_contact_with_a_covid_patient">Have you ever came in contact with a covid patient?</string>
+    <string name="company">Company\'s Name:</string>
+    <string name="company1">Enter Company\'s Name:</string>
+    <string name="name">Employee Name:</string>
+    <string name="e_mail_id">E-mail Id:</string>
+    <string name="official_e_mail_address">Official E-mail address</string>
+    <string name="no">No</string>
+    <string name="did_you_visit_any_other_company_lab_or_a_containment_or_red_zone">Did you visit any other company,lab or a containment or red zone?</string>
+    <string name="type_yes_or_no_if_yes_mention_the_area_you_visited">Type Yes or No. If Yes, mention the area you visited</string>
+    <string name="any_other_relevant_information">Any other relevant information:</string>
+    <string name="your_response_is_valuable_to_us">Your response is valuable to us.</string>
+    <string name="country_s_name">Country\'s Name</string>
+    <string name="your_body_temperature_today">Your Body Temperature today:</string>
+    <string name="type_yes_or_no">Type Yes or No</string>
+    <string name="in_fahrenheit">In Fahrenheit</string>
+    <string name="employee_login">Employee Login:</string>
+    <string name="welcome_to_healthcare_app">Welcome to HealthCare App</string>
+    <string name="hr_manager_login">HR/ Manager Login:</string>
+    <string name="name1">Enter Your Name</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="registered_phone_number">Registered phone Number</string>
+    <string name="are_you_having_cough_or_fever_or_flu_in_the_past_14_days">Are you having cough or fever or flu in the past 14 days?</string>
+    <string name="yes">Yes</string>
+    <string name="are_you_currently_serving_any_leave_of_absence_or_work_from_home">Are you currently serving any Leave Of Absence Or Work From Home?</string>
+    <string name="did_you_travel_overseas_in_the_last_14_days">Did you travel overseas in the last 14 days?</string>
+    <string name="if_yes_then_where_did_you_visit">If yes, then where did you visit?</string>
+    <string name="title_activity_manager">ManagerActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="Submit">Submit</string>
+    <string name="submitform">SUBMIT</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_reference">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="pick_image_intent" />
+    <string name="fill_form">Fill Form</string>
+    <string name="label">Company:</string>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManagerActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/companyHR"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:text="@string/company1"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/companyHR1"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="@string/company1"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textSize="18sp"
+            android:textStyle="bold"></EditText>
+
+        <TextView
+            android:id="@+id/nameHR"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="@string/name"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/nameHR1"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="@string/name1"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:textStyle="bold"></EditText>
+
+        <TextView
+            android:id="@+id/emailHR"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="@string/e_mail_id"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/emailHR1"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:autofillHints="no"
+            android:hint="@string/official_e_mail_address"
+            android:inputType="textEmailAddress"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/Submit"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:onClick="btnSubmit"
+            android:text="@string/Submit"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
